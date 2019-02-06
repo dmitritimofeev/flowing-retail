@@ -3,15 +3,9 @@ package io.flowing.retail.order.domain;
 import javax.annotation.PostConstruct;
 
 import org.camunda.bpm.engine.ProcessEngine;
-import org.camunda.bpm.model.bpmn.Bpmn;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.annotation.Configuration;
-
-import io.flowing.retail.order.flow.FetchGoodsAdapter;
-import io.flowing.retail.order.flow.OrderCompletedAdapter;
-import io.flowing.retail.order.flow.RetrievePaymentAdapter;
-import io.flowing.retail.order.flow.ShipGoodsAdapter;
 
 @Configuration
 public class OrderFulfillmentFlowDefinition {

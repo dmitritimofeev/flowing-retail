@@ -2,8 +2,6 @@ package io.flowing.retail.checkout.rest;
 
 import static org.springframework.web.bind.annotation.RequestMethod.PUT;
 
-import java.util.UUID;
-
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;

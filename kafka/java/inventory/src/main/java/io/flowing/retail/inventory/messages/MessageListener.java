@@ -15,7 +15,6 @@ import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
 import io.flowing.retail.inventory.application.InventoryService;
-import io.flowing.retail.inventory.domain.PickOrder;
 
 @Component
 @EnableBinding(Sink.class)

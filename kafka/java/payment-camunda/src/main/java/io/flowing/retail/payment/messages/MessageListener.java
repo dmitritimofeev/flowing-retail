@@ -15,8 +15,6 @@ import com.fasterxml.jackson.core.type.TypeReference;
 import com.fasterxml.jackson.databind.JsonMappingException;
 import com.fasterxml.jackson.databind.ObjectMapper;
 
-import io.flowing.retail.payment.flow.PaymentReceivedEventPayload;
-
 @Component
 @EnableBinding(Sink.class)
 public class MessageListener {  
